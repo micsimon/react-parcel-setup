@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/micsimon/react-parcel-setup/issues"
   },
-  "homepage": "https://github.com/micsimon/react-parcel-setup#readme"
+  "homepage": "https://github.com/micsimon/react-parcel-setup#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "typescript": "^3.6.4"
+  }
 }
