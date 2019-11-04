@@ -1,0 +1,19 @@
+{
+  "name": "react-parcel-setup",
+  "version": "1.0.0",
+  "description": "react parcel setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micsimon/react-parcel-setup.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micsimon/react-parcel-setup/issues"
+  },
+  "homepage": "https://github.com/micsimon/react-parcel-setup#readme"
+}
