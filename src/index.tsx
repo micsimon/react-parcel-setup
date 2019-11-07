@@ -1,17 +1,12 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom'
 import './index.css'
-import ToDoList from './component/todo-list';
 
-function App() {
-    return (
-        <div>
-            <div className="header">Hello World1</div>
-            <ToDoList/>
-        </div>
-    )
-}
+const DynamicApp = React.lazy(() => import('./component/app'));
 
-ReactDOM.render(<App/>, document.getElementById('app'));
-
-
+ReactDOM.render((
+        <Suspense fallback={<div>... loading</div>}>
+            <DynamicApp/>
+        </Suspense>
+    ),
+    document.getElementById('app'));
