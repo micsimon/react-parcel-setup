@@ -1,5 +1,5 @@
 import React from 'react';
-import ToDoList from '../todo-list';
+import ToDoList from '../TodoList';
 
 export default () => (
     <div>
